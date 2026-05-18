@@ -1,0 +1,82 @@
+﻿{
+    "dialogues": [
+        {
+            "Id": "dialogue_Cuchulainn_1_1",
+            "CharacterDataId": "",
+            "Description": "오우!마스터 수고하는구만",
+            "NextDialogueId": "dialogue_Cuchulainn_1_2",
+            "SelectionNameList": [],
+            "SelectionDialogueIdList": [],
+            "TexturePath": "",
+            "VoicePath": ""
+        },
+        {
+            "Id": "dialogue_Cuchulainn_1_2",
+            "CharacterDataId": "",
+            "Description": "다음 특이점 도착까지 푹 쉬어두라고",
+            "NextDialogueId": "dialogue_Cuchulainn_1_3",
+            "SelectionNameList": [],
+            "SelectionDialogueIdList": [],
+            "TexturePath": "",
+            "VoicePath": ""
+        },
+        {
+            "Id": "dialogue_Cuchulainn_1_3",
+            "CharacterDataId": "",
+            "Description": "게임 종료는 왼쪽의 마슈에게 가면 할 수 있으니까",
+            "NextDialogueId": "",
+            "SelectionNameList": [],
+            "SelectionDialogueIdList": [],
+            "TexturePath": "",
+            "VoicePath": ""
+        },
+        {
+            "Id": "dialogue_Mash_1_1",
+            "CharacterDataId": "",
+            "Description": "선배!오늘도 고생하셨어요",
+            "NextDialogueId": "dialogue_Mash_1_2",
+            "SelectionNameList": [],
+            "SelectionDialogueIdList": [],
+            "TexturePath": "",
+            "VoicePath": ""
+        },
+        {
+            "Id": "dialogue_Mash_1_2",
+            "CharacterDataId": "",
+            "Description": "저에게 다시 말을 거시면 게임을 종료할 수 있어요",
+            "NextDialogueId": "",
+            "SelectionNameList": [],
+            "SelectionDialogueIdList": [],
+            "TexturePath": "",
+            "VoicePath": ""
+        },
+        {
+            "Id": "GameEnd_Mash_1_1",
+            "CharacterDataId": null,
+            "Description": "선배!오늘도 고생하셨어요. 게임을 종료하시겠습니까?",
+            "NextDialogueId": null,
+            "SelectionNameList": [
+                "네",
+                "아니요"
+            ],
+            "SelectionDialogueIdList": [
+                "Action_QuitGame",
+                "dialogue_Mash_Cancel"
+            ],
+            "TexturePath": null,
+            "VoicePath": null
+        },
+        {
+            "Id": "dialogue_Mash_Cancel",
+            "CharacterDataId": null,
+            "Description": null,
+            "NextDialogueId": null,
+            "SelectionNameList": [
+                "알겠습니다!계속 수고해주세요."
+            ],
+            "SelectionDialogueIdList": null,
+            "TexturePath": null,
+            "VoicePath": null
+        }
+    ]
+}
