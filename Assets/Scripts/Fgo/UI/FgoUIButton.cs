@@ -24,10 +24,7 @@ public class FgoUIButton : MonoBehaviour
 
     private void OnDisable()
     {
-        if (Button_Base != null)
-        {
-            Button_Base.onClick.RemoveAllListeners();
-        }
+        UnBindOnClickButtonEvent(OnClickSetSelectUI);
     }
 
     private void SetDefaultUI()
@@ -55,6 +52,7 @@ public class FgoUIButton : MonoBehaviour
 
     public void BindOnClickButtonEvent(Action onClickCallback)
     {
+        InitUIButton();
         if (Button_Base == null) return;
         if (_actionDic.ContainsKey(onClickCallback) == false)
         {
@@ -66,7 +64,8 @@ public class FgoUIButton : MonoBehaviour
 
     public void UnBindOnClickButtonEvent(Action onClickCallback)
     {
-        if (Button_Base != null) return;
+        InitUIButton();
+        if (Button_Base == null) return;
         if (_actionDic.ContainsKey(onClickCallback) == true)
         {
             Button_Base.onClick.RemoveListener(_actionDic[onClickCallback]);

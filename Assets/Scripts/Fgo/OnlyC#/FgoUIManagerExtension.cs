@@ -5,14 +5,18 @@ using Cysharp.Threading.Tasks;
 public enum FgoUIRootType
 {
     None = 0,
-    MainUI
+    MainUI,
+    VeryFront,
+    Popup,
+    Content
 }
 public enum FgoUIType
 {
     None = 0,
     FgoTitleUI,
     FgoLoadingUI,
-    FgoLobbyUI
+    FgoLobbyUI,
+    FgoBattleUI
 }
 
 public static class FgoUIManagerExtension
@@ -28,15 +32,30 @@ public static class FgoUIManagerExtension
 
     public static async UniTaskVoid TransitionTitleToLobby(this FgoUIManager uiManager)
     {
-        uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoLoadingUI);
+        uiManager.OpenUI(FgoUIRootType.VeryFront, FgoUIType.FgoLoadingUI);
 
         uiManager.CloseUI(FgoUIType.FgoTitleUI);
 
-        await UniTask.Delay(TimeSpan.FromSeconds(1.5f));
+        await UniTask.Delay(TimeSpan.FromSeconds(0.5f));
 
         uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoLobbyUI);
 
-        uiManager.CloseUI(FgoUIType.FgoLoadingUI);
+
+    }
+
+    public static async UniTaskVoid TransitionLobbyToBattle(this FgoUIManager uiManager)
+    {
+        uiManager.OpenUI(FgoUIRootType.VeryFront, FgoUIType.FgoLoadingUI);
+
+        uiManager.CloseUI(FgoUIType.FgoLobbyUI);
+ 
+        FgoGameManager.Instance.ShowBattleMap();
+
+        uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoBattleUI);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(1.0f));
+
+
     }
 }
 
