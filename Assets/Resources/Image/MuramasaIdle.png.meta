@@ -1,0 +1,1182 @@
+fileFormatVersion: 2
+guid: 30b7e7531f420af459cc746713c42aee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MuramasaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cd8658b6f4b344bb20f62627dd2529
+      internalID: 1121957507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f1b25a8e13dc14e8e91ba43adaf707
+      internalID: -1264902338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e397f5e522af24a82b28ee8f941a28
+      internalID: 1681841970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf58679cbc558944b06cbf89e4cbda4
+      internalID: -2024661193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e13fc07633b3546882fde8955a4089
+      internalID: 2049369916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26068b58e4452f54e882a32d3cc2771e
+      internalID: -2044778143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2058
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1233e8101bf8f469448bc821b074f4
+      internalID: -1503338284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b83a213755ede48938d7d5a047de48
+      internalID: 1544674552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f931d44814f47e84c98049242f0274a5
+      internalID: -708084148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd926603b9715144ca38286c98fd0d6d
+      internalID: 1952083645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_10
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b343dbb09b1974f8195ab546b4aeba
+      internalID: -1782623445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba913af0e4ae34f8450aeddf0a34ce
+      internalID: 2138362581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_12
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62a9bfa6c9744d4e9280bb27a9aa303
+      internalID: 545225182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_13
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1716
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2021156e2a68b945b155c1cfc69ae0d
+      internalID: 918095260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f2f0fb736e58b43ba3a6c3cc2c7bbf
+      internalID: -156708602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_15
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955f4e5a1d32f84bb165b49fa3ce77c
+      internalID: -200095764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9229ad04e40cfe4da9ad19652ecada7
+      internalID: 212351969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bd4e1e42eaabe48a0941539b27d786
+      internalID: -351609630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b86613fb5b1f346b874d00d8207d86
+      internalID: -808977682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_19
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716e99af1c910204c9c57f7c0e292568
+      internalID: 1608403718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_20
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1374
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8308ac4c5b116b844b95c9ec8d79396e
+      internalID: 735742401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59a292ad51a9ab4c900130db715ae5c
+      internalID: 1113162899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684d9c056cdce84c94c2442ebd7ce22
+      internalID: -317729620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_23
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a031e49b8def70e479b7ffed76fb792b
+      internalID: -779337562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_24
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b62cae26abd840ae16206c4316138
+      internalID: -1912042042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_25
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70160aa01d2800f43bab61881774d091
+      internalID: -422446452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_26
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd6db2eb44aa524ebd13f537846dfea
+      internalID: 1715950287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_27
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1032
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1d3a3b30f42a145918126ff52ef090
+      internalID: -202309894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6cdd2a45a91b7489eba0a38794a3a1
+      internalID: 86088971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7416e7270237340ae868adfc4dad08
+      internalID: -1822953529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_30
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4b14135161c8d4f8e7f4f9669292d6
+      internalID: 1424763597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_31
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d2632c139ecc44a1e9ba81ab1b3b7
+      internalID: 1336683619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_32
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b960cbdb8ae3a3499785122f75d6c2d
+      internalID: -1835277682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_33
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1332691aa6fab45b757e4514c41d30
+      internalID: -668546351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_34
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 690
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d260d07af849dd1448f85c7ac39fe734
+      internalID: -379859266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734bee75f8d5b384e9d2dc310bd2ce8f
+      internalID: -134883374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_36
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 348
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b834fccb457d97d408a681d1e759cfb8
+      internalID: 2113412973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_37
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 348
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47be7186a322cdb4f8e6e7dfbfd8b3ec
+      internalID: -103253938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_38
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 351
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1897e0b5fd05746819b2577986d19a
+      internalID: -925203900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_39
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 348
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb849014eeae4ea4b9e123981a8b5a85
+      internalID: -1867372005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_40
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 351
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa5f269f2d26e441b64a58e08848f17
+      internalID: 1593074429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_41
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 348
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65191293a5d29824b8c56956b02ae814
+      internalID: -1145251016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7e7aed412c34b4da1e3c1af85a56ec
+      internalID: -382951069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_43
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 6
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75077e1b68c92f40b71c7f4b4bfcae9
+      internalID: 1302923299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuramasaIdle_44
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 6
+        width: 291
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f644c63c00acbf4cb11715ba0c8cbf6
+      internalID: 1288762155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e856bfb3ee7e9df4f9f174f3a3338720
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":7.0},"gridSpriteSize":{"x":291.0,"y":342.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      MuramasaIdle_0: 1121957507
+      MuramasaIdle_1: -1264902338
+      MuramasaIdle_10: -1782623445
+      MuramasaIdle_11: 2138362581
+      MuramasaIdle_12: 545225182
+      MuramasaIdle_13: 918095260
+      MuramasaIdle_14: -156708602
+      MuramasaIdle_15: -200095764
+      MuramasaIdle_16: 212351969
+      MuramasaIdle_17: -351609630
+      MuramasaIdle_18: -808977682
+      MuramasaIdle_19: 1608403718
+      MuramasaIdle_2: 1681841970
+      MuramasaIdle_20: 735742401
+      MuramasaIdle_21: 1113162899
+      MuramasaIdle_22: -317729620
+      MuramasaIdle_23: -779337562
+      MuramasaIdle_24: -1912042042
+      MuramasaIdle_25: -422446452
+      MuramasaIdle_26: 1715950287
+      MuramasaIdle_27: -202309894
+      MuramasaIdle_28: 86088971
+      MuramasaIdle_29: -1822953529
+      MuramasaIdle_3: -2024661193
+      MuramasaIdle_30: 1424763597
+      MuramasaIdle_31: 1336683619
+      MuramasaIdle_32: -1835277682
+      MuramasaIdle_33: -668546351
+      MuramasaIdle_34: -379859266
+      MuramasaIdle_35: -134883374
+      MuramasaIdle_36: 2113412973
+      MuramasaIdle_37: -103253938
+      MuramasaIdle_38: -925203900
+      MuramasaIdle_39: -1867372005
+      MuramasaIdle_4: 2049369916
+      MuramasaIdle_40: 1593074429
+      MuramasaIdle_41: -1145251016
+      MuramasaIdle_42: -382951069
+      MuramasaIdle_43: 1302923299
+      MuramasaIdle_44: 1288762155
+      MuramasaIdle_5: -2044778143
+      MuramasaIdle_6: -1503338284
+      MuramasaIdle_7: 1544674552
+      MuramasaIdle_8: -708084148
+      MuramasaIdle_9: 1952083645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
