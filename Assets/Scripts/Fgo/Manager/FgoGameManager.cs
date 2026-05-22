@@ -25,6 +25,7 @@ public class FgoGameManager : MonoBehaviour
             GameObject mapPrefab = Resources.Load<GameObject>("Prefabs/Map/BattleMap_Root");
             _currentBattleMap = Instantiate(mapPrefab);
 
+            _currentBattleMap.transform.position = Vector3.zero;
         }
 
         _currentBattleMap.SetActive(true);

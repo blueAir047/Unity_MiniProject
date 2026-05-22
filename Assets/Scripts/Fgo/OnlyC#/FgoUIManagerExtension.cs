@@ -36,11 +36,11 @@ public static class FgoUIManagerExtension
 
         uiManager.CloseUI(FgoUIType.FgoTitleUI);
 
-        await UniTask.Delay(TimeSpan.FromSeconds(0.5f));
+        await UniTask.Delay(TimeSpan.FromSeconds(1.5f));
 
         uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoLobbyUI);
 
-
+        uiManager.CloseUI(FgoUIType.FgoLoadingUI);
     }
 
     public static async UniTaskVoid TransitionLobbyToBattle(this FgoUIManager uiManager)
@@ -51,11 +51,11 @@ public static class FgoUIManagerExtension
  
         FgoGameManager.Instance.ShowBattleMap();
 
-        uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoBattleUI);
-
         await UniTask.Delay(TimeSpan.FromSeconds(1.0f));
 
+        uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoBattleUI);
 
+        uiManager.CloseUI(FgoUIType.FgoLoadingUI);
     }
 }
 
