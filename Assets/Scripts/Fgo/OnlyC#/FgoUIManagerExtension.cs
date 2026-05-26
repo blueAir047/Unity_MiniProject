@@ -7,7 +7,7 @@ public enum FgoUIRootType
     None = 0,
     MainUI,
     VeryFront,
-    Popup,
+    PopupUI,
     Content
 }
 public enum FgoUIType
@@ -16,7 +16,8 @@ public enum FgoUIType
     FgoTitleUI,
     FgoLoadingUI,
     FgoLobbyUI,
-    FgoBattleUI
+    FgoBattleUI,
+    ChoiceBattleEndPopup
 }
 
 public static class FgoUIManagerExtension
@@ -54,6 +55,21 @@ public static class FgoUIManagerExtension
         await UniTask.Delay(TimeSpan.FromSeconds(1.0f));
 
         uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoBattleUI);
+
+        uiManager.CloseUI(FgoUIType.FgoLoadingUI);
+    }
+
+    public static async UniTaskVoid TransitionBattleToLobby(this FgoUIManager uiManager)
+    {
+        uiManager.OpenUI(FgoUIRootType.VeryFront, FgoUIType.FgoLoadingUI);
+
+        uiManager.CloseUI(FgoUIType.FgoBattleUI);
+
+        FgoGameManager.Instance.HideBattleMap();
+
+        await UniTask.Delay(TimeSpan.FromSeconds(1.0f));
+
+        uiManager.OpenUI(FgoUIRootType.MainUI, FgoUIType.FgoLobbyUI);
 
         uiManager.CloseUI(FgoUIType.FgoLoadingUI);
     }

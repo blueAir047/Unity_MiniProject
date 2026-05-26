@@ -30,5 +30,12 @@ public class FgoGameManager : MonoBehaviour
 
         _currentBattleMap.SetActive(true);
     }
+    public void HideBattleMap()
+    {
+        if (_currentBattleMap != null)
+        {
+            _currentBattleMap.SetActive(false);
+        }
+    }
 }
  

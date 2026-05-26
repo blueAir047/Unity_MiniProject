@@ -8,6 +8,8 @@ public class FgoLobbyUI : FgoUIBase
     {
         if (Button_GoBattle != null) 
         {
+            Button_GoBattle.gameObject.SetActive(true);
+
             Button_GoBattle.BindOnClickButtonEvent(OnClick_GoBattle);
         }
     }

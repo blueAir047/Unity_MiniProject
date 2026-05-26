@@ -85,7 +85,7 @@ public class FgoUIManager : MonoBehaviour
             root = Canvas_VeryFront.transform;
         }
 
-        if (uiRootType == FgoUIRootType.Popup)
+        if (uiRootType == FgoUIRootType.PopupUI)
         {
             root = Canvas_Popup.transform;
         }
