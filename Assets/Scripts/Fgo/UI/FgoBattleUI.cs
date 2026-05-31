@@ -50,8 +50,6 @@ public class FgoBattleUI : FgoUIBase
 
             commandCardArea.SetActive(!isCardActive);
 
-            commandArea.SetActive(isCardActive);
-
             if (!isCardActive)
             {
                 SetupCommandCards();
@@ -117,7 +115,12 @@ public class FgoBattleUI : FgoUIBase
 
     private void StartAttackPhase()
     {
+        
         if (commandCardArea != null) commandCardArea.SetActive(false);
-        if (commandArea != null) commandArea.SetActive(true);
+     
+        if (FgoBattleManager.Instance != null)
+        {
+            FgoBattleManager.Instance.StartPlayerAttack(_selectedCards);
+        }
     }
 }

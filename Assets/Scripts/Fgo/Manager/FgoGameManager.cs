@@ -29,6 +29,11 @@ public class FgoGameManager : MonoBehaviour
         }
 
         _currentBattleMap.SetActive(true);
+
+        if (FgoBattleManager.Instance != null)
+        {
+            FgoBattleManager.Instance.InitBattleField();
+        }
     }
     public void HideBattleMap()
     {
@@ -37,5 +42,7 @@ public class FgoGameManager : MonoBehaviour
             _currentBattleMap.SetActive(false);
         }
     }
+
+
 }
  
