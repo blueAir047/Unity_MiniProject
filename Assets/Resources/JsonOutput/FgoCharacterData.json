@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "ch_muramasa_01",
+    "Name": "센지 무라마사",
+    "ServantClass": "Saber",
+    "SkillList": 0
+  },
+  {
+    "Id": "ch_melusine_01",
+    "Name": "멜루진",
+    "ServantClass": "Lancer",
+    "SkillList": 0
+  }
+]

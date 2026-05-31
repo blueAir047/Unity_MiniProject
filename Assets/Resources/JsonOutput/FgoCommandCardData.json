@@ -1,0 +1,9 @@
+[
+  {
+    "Id": "card_buster_01",
+    "CardName": "버스터",
+    "CardType": "Buster",
+    "DamageMultiplier": 150,
+    "IconPath": "Card_Buster_Img"
+  }
+]
